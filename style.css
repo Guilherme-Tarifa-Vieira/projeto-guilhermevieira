@@ -1,144 +1,151 @@
-
 /* reset */
 
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-margin: 0;
-padding: 0;
-font-family: 'Exo 2', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo 2', sans-serif;
 }
 
-
 .header {
-background-color: #000407;
-color: #32b9cd;
-border-bottom: 3px solid #32b9cd ;
+  background-color: #000407;
+  color: #32b9cd;
+  border-bottom: 3px solid #32b9cd;
 }
 
 .header .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container {
-
-    width: 80%;
-    margin: 0 auto;
-    
-    }
+  width: 80%;
+  margin: 0 auto;
+}
 
 .agora {
-font-weight: bold;
-
+  font-weight: bold;
 }
 .navbar {
-display: flex;
-list-style: none;
-width: 400px;
-justify-content: space-between;
-align-items: center;
-
+  display: flex;
+  list-style: none;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar a {
-text-decoration: none;
-color: #e3b062;
-
+  text-decoration: none;
+  color: #e3b062;
 }
 
 .banner {
-background-image: url('img/banner.png');
-background-size: cover;
-
+  background-image: url('img/banner.png');
+  background-size: cover;
 }
 
 .banner .container {
-    height: 550px;
-    display: flex;
-    color: white;
-    align-items: center;
-    margin-left: 10%;
-
-
+  height: 550px;
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-left: 10%;
 }
 
 .banner p {
-font-size: 36px;
-width: 280px;
-
+  font-size: 36px;
+  width: 280px;
 }
 
 .footer {
-background-color: #32b9cd;
-color: white;
-
+  background-color: #32b9cd;
+  color: white;
 }
 
 .footer .container {
-    display: flex;
-    height: 150px;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-background-color: #e5e5e5;
-color: #e6005a;
-width: 400px;
-height: 350px;
-display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: center;
-border-radius: 10px;
+  background-color: #e5e5e5;
+  color: #e6005a;
+  width: 400px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .card h2 {
-margin: 0;
-
-
+  margin: 0;
 }
 
-
 form {
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-top: 24px;
-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 24px;
+  width: 250px;
 }
 
 form input {
-    margin-top: 8px;
-    outline: 3px solid #32b9cd;
-    border: 0;
-    padding: 8px;
-    border-radius: 10px;
+  margin-top: 8px;
+  outline: 3px solid #32b9cd;
+  border: 0;
+  padding: 8px;
+  border-radius: 10px;
 }
 
 form label {
-    margin-top: 8px;
- }
-
-
-form button {
-margin-top: 16px;
-background-color: #e6005a;
-color: white;
-padding: 10px 15px;
-width: 120px;
-align-self: center;
-border: none;
-border-radius: 5px;
-cursor: pointer;
+  margin-top: 8px;
 }
 
-
+form button {
+  margin-top: 16px;
+  background-color: #e6005a;
+  color: white;
+  padding: 10px 15px;
+  width: 120px;
+  align-self: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 .banner .container.login {
-display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
+}
 
+.content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 62px;
+}
+
+img {
+  height: 150px;
+}
+
+.content .container #icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #e6005a;
+}
+
+.content .container #icon p {
+  display: flex;
+  width: 250px;
+  color: #292c34;
+  margin-top: 22px;
+  margin-bottom: 62px;
+  font-size: 22px;
 }
