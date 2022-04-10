@@ -123,6 +123,14 @@ form button {
   justify-content: center;
 }
 
+.banner .container.cadastro {
+  display: flex;
+  justify-content: center;
+}
+
+.banner .container.cadastro .card {
+  padding: 41px 0px;
+}
 .content .container {
   display: flex;
   align-items: center;
@@ -148,4 +156,5 @@ img {
   margin-top: 22px;
   margin-bottom: 62px;
   font-size: 22px;
+  text-align: center;
 }
